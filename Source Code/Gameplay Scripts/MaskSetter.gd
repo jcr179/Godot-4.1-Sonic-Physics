@@ -27,8 +27,6 @@ func _on_Area2D_body_entered(body):
 		var left = body.get_collision_mask_value(2)
 		var right = body.get_collision_mask_value(3)
 		
-		print("SWITCH_MODE {x}".format({'x': SWITCH_MODE}))
-		
 		match SWITCH_MODE:
 			Switch.LEFT_TO_RIGHT:
 				left_to_right()
