@@ -1,0 +1,48 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1696572222
+default_env.tres::Environment::2950254804711053710::1696572029::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1663117008::0::1::::<><>::
+icon.png::CompressedTexture2D::6514004545370394403::1663117008::1696484428::1::::<><>::
+main.tscn::PackedScene::7351332150825910910::1696572029::0::1::::<><>::res://Gameplay Scripts/main.gd<>res://Gameplay Scripts/player_camera.gd<>res://Gameplay Scripts/player_physics.gd<>res://Gameplay Scripts/state_machine.gd<>res://Gameplay Scripts/States/on_ground.gd<>res://Gameplay Scripts/States/on_air.gd<>res://Gameplay Scripts/States/spin_dash.gd<>res://Gameplay Scripts/States/super_peel_out.gd<>uid://c0ar1jsuamww2::::res://Sprites/Sonic.png<>res://Gameplay Scripts/character_animator.gd<>res://Gameplay Scripts/character_vfx.gd<>uid://dd1afbbe651w4::::res://Sprites/spinDash.png<>uid://bsvhi8nrdojl::::res://Sprites/instaShield.png<>res://Gameplay Scripts/audio_player.gd<>uid://1q0ei5uo3l5b::::res://Audio/sfx/jump.wav<>uid://c0o1aah4ee2vv::::res://Audio/sfx/brake.wav<>uid://bygs17fdui8gw::::res://Audio/sfx/spin.wav<>uid://db72fcmddxt40::::res://Audio/sfx/spinDashCharge.wav<>uid://dho3nmyfw5ryt::::res://Audio/sfx/spinDashRelease.wav<>uid://o8dpalapvks8::::res://Audio/sfx/peelOutCharge.wav<>uid://nkg546qfa4xd::::res://Audio/sfx/peelOutRelease.wav<>uid://csfpm333yqwv4::::res://Audio/sfx/instaShield.wav<>res://Test Zone/loop_part.res<>res://Test Zone/loop_part_blue.res<>res://Test Zone/loop_part_red.res<>res://General/MaskSetterRed.res<>res://General/MaskSetterBlue.res<>res://General/MaskSetterInvert.res<>uid://dyuemvhrcuxre::::res://Test Zone/block.tscn<>uid://isau6cf82id7::::res://Sprites/prototype_tile.png<>uid://ck7ykve5lg7ib::::res://Audio/musics/sky_sanctuary_zone.ogg
+::res://Audio/::1663117008
+::res://Audio/musics/::1696484428
+sky_sanctuary_zone.ogg::AudioStreamOggVorbis::5542266068209489073::1663117008::1696484428::1::::<><>::
+::res://Audio/sfx/::1696484428
+brake.wav::AudioStreamWAV::6558042400842569355::1663117008::1696484428::1::::<><>::
+charge.wav::AudioStreamWAV::2509531400209579023::1663117008::1696484428::1::::<><>::
+instaShield.wav::AudioStreamWAV::6047496141272686271::1663117008::1696484428::1::::<><>::
+jump.wav::AudioStreamWAV::1859465514108044649::1663117008::1696484428::1::::<><>::
+peelOutCharge.wav::AudioStreamWAV::1050977231717030021::1663117008::1696484428::1::::<><>::
+peelOutRelease.wav::AudioStreamWAV::933518192408538261::1663117008::1696484428::1::::<><>::
+spin.wav::AudioStreamWAV::4084480222676173062::1663117008::1696484428::1::::<><>::
+spinDashCharge.wav::AudioStreamWAV::7297159394347062919::1663117008::1696484428::1::::<><>::
+spinDashRelease.wav::AudioStreamWAV::7681209203833875191::1663117008::1696484428::1::::<><>::
+::res://Gameplay Scripts/::1696571251
+audio_player.gd::GDScript::-1::1696484405::0::1::::AudioPlayer<>Node2D<>::
+character_animator.gd::GDScript::-1::1696484405::0::1::::CharacterAnimator<>AnimationPlayer<>::
+character_vfx.gd::GDScript::-1::1696484405::0::1::::<>Node2D<>::
+main.gd::GDScript::-1::1696484405::0::1::::<>Node<>::
+MaskSetter.gd::GDScript::-1::1696571251::0::1::::<>Area2D<>::
+player_camera.gd::GDScript::-1::1696484405::0::1::::PlayerCamera<>Node2D<>::
+player_physics.gd::GDScript::-1::1696484666::0::1::::PlayerPhysics<>CharacterBody2D<>::
+state.gd::GDScript::-1::1696484405::0::1::::<>Node<>::
+state_machine.gd::GDScript::-1::1696484405::0::1::::<>Node<>::
+::res://Gameplay Scripts/States/::1696484733
+on_air.gd::GDScript::-1::1696484733::0::1::::<><>::
+on_ground.gd::GDScript::-1::1696484405::0::1::::<><>::
+spin_dash.gd::GDScript::-1::1696484405::0::1::::<><>::
+super_peel_out.gd::GDScript::-1::1696484405::0::1::::<><>::
+::res://General/::1663117008
+MaskSetterBlue.res::PackedScene::-1::1663117008::0::1::::<><>::res://Gameplay Scripts/MaskSetter.gd
+MaskSetterInvert.res::PackedScene::-1::1663117008::0::1::::<><>::res://Gameplay Scripts/MaskSetter.gd
+MaskSetterRed.res::PackedScene::-1::1663117008::0::1::::<><>::res://Gameplay Scripts/MaskSetter.gd
+::res://Sprites/::1696484428
+instaShield.png::CompressedTexture2D::108635672395397885::1663117008::1696484428::1::::<><>::
+prototype_tile.png::CompressedTexture2D::598706896141243054::1663117008::1696484428::1::::<><>::
+Sonic.png::CompressedTexture2D::6528641579281406015::1663117008::1696484428::1::::<><>::
+spinDash.png::CompressedTexture2D::7423511386861011601::1663117008::1696484428::1::::<><>::
+::res://Test Zone/::1696571005
+block.tscn::PackedScene::8885347265551072578::1696571005::0::1::::<><>::uid://isau6cf82id7::::res://Sprites/prototype_tile.png
+loop_part.res::PackedScene::-1::1663117008::0::1::::<><>::res://Sprites/prototype_tile.png
+loop_part_blue.res::PackedScene::-1::1663117008::0::1::::<><>::res://Sprites/prototype_tile.png
+loop_part_red.res::PackedScene::-1::1663117008::0::1::::<><>::res://Sprites/prototype_tile.png

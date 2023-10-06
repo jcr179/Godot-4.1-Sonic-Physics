@@ -1,0 +1,6 @@
+res://default_env.tres
+res://main.tscn
+res://Test Zone/block.tscn
+res://Test Zone/loop_part_blue.res
+res://Test Zone/loop_part_red.res
+res://Gameplay Scripts/MaskSetter.gd

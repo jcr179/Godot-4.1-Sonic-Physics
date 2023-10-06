@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://dyuemvhrcuxre"]
+
+[ext_resource type="Texture2D" uid="uid://isau6cf82id7" path="res://Sprites/prototype_tile.png" id="1"]
+
+[sub_resource type="RectangleShape2D" id="1"]
+size = Vector2(64, 64)
+
+[node name="block" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+collision_mask = 0
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D"]
+modulate = Color(0, 0, 0, 1)
+texture = ExtResource("1")
+region_enabled = true
+region_rect = Rect2(167, 1, 64, 62)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+shape = SubResource("1")
